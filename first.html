@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easyCab TAXI BOOKING SYSTEM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .parallax-container {
+            background-image: url('https://i.ibb.co/mcQWyML/Gemini-Generated-Image-e5j8bze5j8bze5j8-1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: calc(100vh - 68px);  /* Adjust this value based on your header height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-box {
+            background-color: #4a5568;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login-box img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            background-color: #ffd700;
+            color: #1a2a3a;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #e6c200;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <header class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://i.ibb.co/W5p8kK8/Gemini-Generated-Image-4llkhj4llkhj4llk-photoaidcom-cropped.png" alt="Logo" class="h-12 w-12 mr-2">
+                <span class="text-yellow-400 text-2xl mr-2">&#9776;</span>
+                <h1 class="text-xl font-bold">easyCab TAXI BOOKING SYSTEM</h1>
+            </div>
+        </div>
+        <div class="bg-yellow-400 h-2"></div>
+    </header>
+
+    <main class="parallax-container">
+        <div class="login-box">
+            <img src="https://i.ibb.co/W5p8kK8/Gemini-Generated-Image-4llkhj4llkhj4llk-photoaidcom-cropped.png" alt="Logo">
+            <h2 class="text-2xl font-bold text-yellow-400 mb-4">Welcome to easyCab</h2>
+            <p class="mb-6">Choose your login option:</p>
+            <button class="btn mb-2"><a href="customer/login.php">Customer Login</a></button>
+            <button class="btn"><a href="driver/login.php">Driver Login</a></button>
+        </div>
+    </main>
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+          <div class="flex-1 text-center">
+            <p>&copy; 2024 easyCab. All rights reserved.</p>
+          </div>
+          <div class="social-icons flex">
+            <a href="https://www.instagram.com/your_instagram_handle" target="_blank">
+              <img src="https://i.ibb.co/9gMRyQh/instagram.png" alt="Instagram" class="w-6 h-6 mr-4"> 
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=your_whatsapp_number" target="_blank">
+              <img src="https://i.ibb.co/wCvw5Nh/whatsapp-1.png" alt="WhatsApp" class="w-6 h-6 mr-4"> 
+            </a>
+            <a href="mailto:your_email@example.com">
+              <img src="https://i.ibb.co/374dn7f/gmail.png" alt="Email" class="w-6 h-6">
+            </a>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,343 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 60px; /* Default width for icons only */
+    height: 100%; /* Full height */
+    background-color: #333; /* Dark background color */
+    position: fixed; /* Fixed position */
+    overflow-y: auto; /* Scrollable if needed */
+    transition: width 0.3s; /* Smooth transition for width */
+}
+
+.sidebar-header {
+    padding: 10px; /* Padding for header */
+    background-color: #f39c12; /* Header background color */
+    color: white; /* Header text color */
+    text-align: center; /* Center the text */
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between header text and toggle */
+    align-items: center; /* Center items vertically */
+}
+
+.menu-toggle {
+    cursor: pointer; /* Pointer cursor for toggle */
+    color: white; /* Toggle icon color */
+    font-size: 24px; /* Font size for the icon */
+}
+
+.sidebar-menu {
+    padding: 0; /* No padding for the menu */
+    list-style-type: none; /* Remove default list styling */
+}
+
+.menu-item {
+    display: flex; /* Flexbox for item layout */
+    align-items: center; /* Center icons and text vertically */
+    color: white; /* Text color */
+    padding: 15px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.2s; /* Smooth background color transition */
+}
+
+.menu-item i {
+    min-width: 30px; /* Minimum width for icons */
+    text-align: center; /* Center icons */
+}
+
+.sidebar-menu span {
+    display: none; /* Hide text by default */
+}
+
+.sidebar.expanded {
+    width: 200px; /* Expanded width for showing text */
+}
+
+.sidebar.expanded .sidebar-menu span {
+    display: inline; /* Show text when expanded */
+}
+.dashboard {
+    padding: 20px; /* Add some padding around the dashboard */
+}
+
+.management-options {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    gap: 20px; /* Space between items */
+}
+
+.option {
+    flex: 1 1 calc(33.33% - 20px); /* Each option takes up 1/3 of the container's width */
+    background-color: #f39c12; /* Background color for options */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside each option */
+    text-align: center; /* Center text and icons */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    text-decoration: none; /* Remove underline */
+}
+
+.option:hover {
+    background-color: #e67e22; /* Change background on hover */
+}
+
+.option i {
+    font-size: 30px; /* Increase icon size */
+    display: block; /* Block display for icons */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 60px; /* Initial width of the sidebar */
+  height: 100vh; /* Full height */
+  background-color: #343a40; /* Dark background */
+  position: fixed; /* Fixed position */
+  transition: width 0.3s; /* Smooth transition for width change */
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; /* Height of the header */
+  background-color: #007BFF; /* Header background */
+}
+
+.menu-toggle {
+  cursor: pointer;
+  color: white;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the items horizontally */
+}
+
+.sidebar-menu a {
+  padding: 15px 0;
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the icon and text horizontally */
+  align-items: center; /* Center the icon and text vertically */
+  width: 100%; /* Full width of the sidebar */
+}
+
+.sidebar-menu .menu-text {
+  display: none; /* Hide text initially */
+  margin-left: 10px; /* Space between icon and text */
+}
+
+.sidebar-menu a:hover {
+  background-color: #007BFF; /* Hover color */
+}
+
+.sidebar.active {
+  width: 200px; /* Expanded width */
+}
+
+.sidebar.active .menu-text {
+  display: inline; /* Show text when active */
+}
+ /* Add background image */
+        body {
+            background-image: url('https://pass-new-york.fr/wp-content/uploads/sites/10/2023/09/taxis-dans-avenue-new-york.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar {
+            width: 60px; /* Initial width of the sidebar */
+            height: 100vh; /* Full height */
+            background-color: #343a40; /* Dark background */
+            position: fixed; /* Fixed position */
+            transition: width 0.3s; /* Smooth transition for width change */
+        }
+
+        .sidebar-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px; /* Height of the header */
+            background-color: #007BFF; /* Header background */
+        }
+
+        .menu-toggle {
+            cursor: pointer;
+            color: white;
+        }
+
+        .sidebar-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center the items horizontally */
+        }
+
+        .sidebar-menu a {
+    padding: 15px 0;
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the icon and text horizontally */
+    align-items: center; /* Center the icon and text vertically */
+    width: 100%; /* Full width of the sidebar */
+}
+
+        .sidebar-menu .menu-text {
+            display: none; /* Hide text initially */
+            margin-left: 10px; /* Space between icon and text */
+        }
+
+        .sidebar-menu a:hover {
+            background-color: #007BFF; /* Hover color */
+        }
+
+        .sidebar.active {
+            width: 200px; /* Expanded width */
+        }
+
+        .sidebar.active .menu-text {
+            display: inline; /* Show text when active */
+        }
+
+        .sidebar-menu a {
+    padding: 15px 0;
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the icon and text horizontally */
+    align-items: center; /* Center the icon and text vertically */
+    width: 100%; /* Full width of the sidebar */
+}
+
+        /* Add styling for the account section */
+        .account-section {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-align: right;
+        }
+
+        .account-section a {
+            color: #fff;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .account-section a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Style for dashboard statistics */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px 20px;
+        }
+
+        .dashboard-box {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dashboard-box h2 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+
+        .dashboard-box p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .dashboard-box i {
+            font-size: 50px;
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        .manage-options {
+  text-align: center;
+}
+        /* Manage Options Section */
+        .manage-section {
+    position: relative; /* Add this line to position the manage options boxes relative to the container */
+    margin-left: 60px; /* Add this line to create space for the sidebar */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+        .manage-box {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Required for absolute positioning of overlapping elements */
+        }
+
+        .manage-box a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px 0;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .manage-box:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Positioning for the second row */
+        .manage-box:nth-child(4) {
+            grid-column: 1; /* Align the first box of the second row under the first column */
+            grid-row: 2; /* Start on the second row */
+            margin-top: -30px; /* Move it up to overlap */
+        }
+
+        .manage-box:nth-child(5) {
+            grid-column: 2; /* Align the second box of the second row under the second column */
+            grid-row: 2; /* Start on the second row */
+            margin-top: -30px; /* Move it up to overlap */
+        }
+
+        .manage-box:nth-child(6) {
+            grid-column: 3; /* Align the third box of the second row under the third column */
+            grid-row: 2; /* Start on the second row */
+            margin-top: -30px; /* Move it up to overlap */
+        }
